@@ -1,0 +1,20 @@
+### first test server
+GET http://localhost:8000
+
+###POST test route admin/register
+POST http://localhost:8000/admin/register
+Content-Type: application/json
+
+{
+    "username": "Malik",
+    "password": "Maliketanissa1601"
+}
+
+###POST test route admin
+POST http://localhost:8000/admin
+Content-Type: application/json
+
+{
+    "username": "Malik",
+    "password": "Maliketanissa1601"
+}
