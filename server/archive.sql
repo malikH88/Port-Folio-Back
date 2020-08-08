@@ -15,11 +15,14 @@ CREATE TABLE `admin`(
 
 CREATE TABLE `project` (
     `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(100),
     `title` VARCHAR(100),
-    `description` VARCHAR(100),
-    `previewImage` LONGBLOB NOT NULL,
+    `society` VARCHAR(100),
+    `description` VARCHAR(255),
+    `link` VARCHAR(255),
     PRIMARY KEY (`id`)
 );
 
-/*------ insertions--------*/
+/*------Voir les valeurs d'une table--------*/
 
+select * from project;

@@ -10,6 +10,16 @@ Content-Type: application/json
     "password": "Maliketanissa1601"
 }
 
+###POST test route admin/register
+POST http://localhost:8000/project
+Content-Type: application/json
+
+{
+    "title": "Hackathon",
+    "description": "test4",
+    "previewImage": "image"
+}
+
 ###POST test route admin
 POST http://localhost:8000/admin
 Content-Type: application/json
